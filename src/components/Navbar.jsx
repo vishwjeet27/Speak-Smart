@@ -1,3 +1,5 @@
+import { FaHandshake } from "react-icons/fa";
+
 function Navbar(){
 
     return(
@@ -19,7 +21,7 @@ function Navbar(){
             </div>
 
             <div>
-                <a className="hover:bg-amber-200 bg-amber-100 p-2 rounded-xl text-emerald-800 font-bold" href="#">Join Now!</a>
+                <a className="hover:bg-amber-200 flex items-center bg-amber-100 p-2 rounded-xl text-emerald-800 font-bold" href="#"> <FaHandshake className="text-2xl" /> &nbsp; Join Now!</a>
             </div>
 
 
